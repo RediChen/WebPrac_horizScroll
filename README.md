@@ -1,0 +1,2 @@
+# WebPrac_horizScroll
+實現滑鼠滾輪使畫面橫向移動之效果

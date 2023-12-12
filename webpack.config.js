@@ -31,7 +31,7 @@ module.exports = {
                 test: /\.(ts|tsx|js|jsx)$/,
                 exclude: /node_modules/,
                 loader: "babel-loader",
-                options: { "presets": ["@babel/preset-env", "@babel/preset-react"] }/* 此行才能讓 preset 夠早執行 */
+                options: { "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"] }/* 此行才能讓 preset 夠早執行 */
             },
         ],
     },
